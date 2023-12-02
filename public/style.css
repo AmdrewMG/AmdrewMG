@@ -1,0 +1,93 @@
+:root{
+    --color-menu:rgb(5, 59, 80);
+    --texto: rgb(0,0,0);
+    --color-cuerpo: rgb(238, 238, 238);
+    --color-boton: rgb(23, 107, 135);
+    --color-texto-boton: rgb(238, 238, 238);
+    --color-hover: rgb(100, 204, 197);
+    --linea: rgb(241, 239, 239);
+}
+*{
+    font-family: 'Lora', serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-cuerpo)
+}
+
+.navbar{
+    background: var(--color-menu);
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.fondo{
+    background: #678983;
+}
+
+.titulo-nombre{
+    font-size: 60px;
+}
+
+
+
+.cards-carousel{
+    display: flex;
+}
+
+.card{
+    border-radius: 1rem;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    margin: 0.5em;
+    width: 100%;
+}
+
+.imagen-forma-carousel{
+    height: 15vw;
+    margin: 0 auto;
+}
+.imagen-forma-carousel img{
+    max-width: 100%;
+    max-height:100% ;
+}
+ /*Modal habilidades blandas*/
+.cardsMini{
+    padding: 1em;
+    width: 100%;
+}
+
+
+.imagen-forma-mini img{
+    width: 100%;
+}
+/*Fin habilidades blandas*/
+
+/*Habilidades tecnicas*/
+.cartaTecno{
+    width: 50%;
+    background: var(--linea);
+    font-size: 18px;
+}
+
+
+/*fin habilidades tecnicas*/
+
+
+.card-certificados{
+    padding: 0.7em;
+    margin-right: 2em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+
+}
+
+.enlace{
+    text-decoration: none;
+    color: white;
+}
